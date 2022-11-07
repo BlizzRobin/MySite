@@ -1,0 +1,75 @@
+body {
+margin: 0;
+text-align: center;
+font-family: Cursive;
+}
+
+h2{
+   font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    color:  #66BFBF;
+    line-height: 2;
+}
+
+
+.top-container {
+background-color: #DEF5E5;
+position: relative;
+padding-top: 250px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.Photo {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Robin {
+    width: 15%;
+   margin-top: 30px;
+}
+
+.Guitar {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.Twitter {width: 50px;}  
+.Email-icon {width: 50px;}  
+.Discord {width: 50px;}  
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+ }
+
